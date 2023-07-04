@@ -7,6 +7,12 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "gridsome-plugin-pug": "^0.0.3",
+    "sass": "^1.63.6",
+    "sass-loader": "^10.1.1"
   }
 }
