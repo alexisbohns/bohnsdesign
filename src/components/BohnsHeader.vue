@@ -10,9 +10,12 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2rem 0;
     gap: 1rem;
+    align-items: center;
+
+    @media (min-width: 480px) {
+        align-items: flex-start;
+    }
 }
 .bohns-author {
     &-picture {
@@ -24,10 +27,14 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+    
+        @media (min-width: 480px) {
+            align-items: flex-start;
+        }
 
         &-name {
-            font-family: felt-tip-senior, sans-serif;
-            font-size: 3rem;
+            font-family: var(--bohns-ff-script);
+            font-size: 2rem;
             margin: 0;
             line-height: 100%;
         }

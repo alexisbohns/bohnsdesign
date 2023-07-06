@@ -1,9 +1,11 @@
 <script>
 import BohnsHeader from '../components/BohnsHeader.vue'
+import BohnsFooter from '../components/BohnsFooter.vue'
 
 export default {
   components: {
-    BohnsHeader
+    BohnsHeader,
+    BohnsFooter
   }
 }
 </script>
@@ -12,26 +14,18 @@ export default {
   BohnsHeader
   .main
     slot
+  BohnsFooter
 </template>
 <style lang="scss">
-body {
-  font-family: Arial, sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-  background: url(../assets/images/bohns-background.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-}
-
 .layout {
-  max-width: 760px;
+  max-width: 600px;
   display: flex;
-  flex-direction: columns;
-  align-items: center;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  flex-direction: column;
+  padding: 2rem;
+  @media (min-width: 480px) {
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 3rem;
+  }
 }
 </style>
