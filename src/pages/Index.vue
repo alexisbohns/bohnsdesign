@@ -10,7 +10,4 @@ Layout
   <!-- Here will be index content -->
 </template>
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
 </style>
