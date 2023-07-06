@@ -7,10 +7,4 @@ import '~/assets/stylesheets/index.scss'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  head.link.push(
-    {
-      src: 'https://use.typekit.net/jsa5dju.css',
-      rel: 'stylesheet'
-    }
-  )
 }

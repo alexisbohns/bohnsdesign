@@ -1,20 +1,31 @@
+<script>
+import BohnsHeader from '../components/BohnsHeader.vue'
+import BohnsFooter from '../components/BohnsFooter.vue'
+
+export default {
+  components: {
+    BohnsHeader,
+    BohnsFooter
+  }
+}
+</script>
 <template lang="pug">
 .layout
+  BohnsHeader
   .main
     slot
+  BohnsFooter
 </template>
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
+<style lang="scss">
 .layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  @media (min-width: 480px) {
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 3rem;
+  }
 }
 </style>
