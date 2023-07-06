@@ -2,7 +2,7 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Bohns',
   plugins: [
     {
       use: 'gridsome-plugin-pug',
@@ -10,6 +10,9 @@ module.exports = {
         pug: { /* Options for `pug-plain-loader` */ },
         pugLoader: { /* Options for `pug-loader` */ }
       }
+    },
+    {
+      use: 'gridsome-plugin-seo'
     }
   ]
 };
