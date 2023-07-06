@@ -10,6 +10,9 @@ module.exports = {
         pug: { /* Options for `pug-plain-loader` */ },
         pugLoader: { /* Options for `pug-loader` */ }
       }
+    },
+    {
+      use: 'gridsome-plugin-seo'
     }
   ]
 };
