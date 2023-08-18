@@ -25,14 +25,28 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'posts/**/*.md',
-        typeName: 'Post'
+        typeName: 'Posts',
+        remark: {
+          plugins: [
+
+          ]
+        }
       }
     },
     {
       use: `gridsome-plugin-netlify-cms`,
       options: {
-        publicPath: `/admin`
+        publicPath: `/admin`,
+        modulePath: `src/admin/index.js`
       }
     }
-  ]
+  ],
+  templates: {
+    Posts: [
+      {
+        path: '/:path',
+        component: './src/templates/Post.vue'
+      }
+    ]
+  }
 };

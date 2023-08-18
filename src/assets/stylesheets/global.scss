@@ -7,3 +7,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.cta {
+    padding: 1rem 2rem;
+    border: 1px solid;
+    display: flex;
+    margin: 0;
+    text-decoration: none;
+    background: black;
+    color: white;
+    line-height: 100%;
+  
+    &:hover {
+      opacity: 50%;
+    }
+  }
