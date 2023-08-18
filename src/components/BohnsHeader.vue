@@ -1,17 +1,20 @@
 <template lang="pug">
 header
-    g-image(src="~/assets/images/bohns-alexis-bohn.webp" class='bohns-author-picture' alt='Alexis Bohn')
-    .bohns-author-heading
-        h1.bohns-author-heading-name Alexis Bohn
-        .bohns-author-heading-title designer
+    a.header(href="/")
+        g-image(src="~/assets/images/bohns-alexis-bohn.webp" class='bohns-author-picture' alt='Alexis Bohn')
+        .bohns-author-heading
+            h1.bohns-author-heading-name Alexis Bohn
+            .bohns-author-heading-title designer
 </template>
 <style lang="scss">
-header {
+.header {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     align-items: center;
+    color: black;
+    text-decoration: none;
 
     @media (min-width: 480px) {
         align-items: flex-start;
