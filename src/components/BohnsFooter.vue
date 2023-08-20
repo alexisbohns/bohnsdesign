@@ -16,6 +16,9 @@ footer.bohns-footer
             .bohns-footer-links-item-name {{ media.name }}
 </template>
 <style lang="scss">
+footer {
+    width: 100%;
+}
 .bohns-footer-links {
     display: flex;
     flex-direction: column;
