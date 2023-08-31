@@ -23,7 +23,7 @@ header.bohns-header
                     i.fab.fa-github
 </template>
 <style lang="scss">
-header {
+.header {
     width: 100%;
     display: flex;
     flex-direction: column;
