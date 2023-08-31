@@ -6,27 +6,36 @@ export default {
   components: {
     BohnsHeader,
     BohnsFooter
+  },
+  props: {
+    displayHeader: {
+      type: Boolean,
+      default: true
+    }
+  },
+  computed: {
+    showHeader() {
+      return this.BohnsHeader;
+    }
   }
 }
 </script>
 <template lang="pug">
 .layout
-  BohnsHeader
+  BohnsHeader(v-if='displayHeader')
   .main
     slot
   BohnsFooter
 </template>
 <style lang="scss">
 .layout {
-  max-width: 600px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 2rem;
-  @media (min-width: 480px) {
-    justify-content: center;
-    min-height: 100vh;
-    padding: 0 3rem;
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
   }
   .main {
     display: flex;
