@@ -11,14 +11,11 @@ export default {
 </script>
 <template lang="pug">
 footer.bohns-footer
-    .bohns-footer-links
+    // .bohns-footer-links
         a.bohns-footer-links-item(v-for='media in medias' :key='media.name' :href='media.url' target='_blank')
             .bohns-footer-links-item-name {{ media.name }}
 </template>
 <style lang="scss">
-footer {
-    width: 100%;
-}
 .bohns-footer-links {
     display: flex;
     flex-direction: column;
