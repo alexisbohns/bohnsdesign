@@ -42,11 +42,6 @@ export default {
     flex-direction: column;
     gap: 1rem;
     align-items: flex-start;
-    padding: 10vh 0;
-
-    // @media (min-width: 480px) {
-    //     padding: rem 0;
-    // }
   }
 }
 </style>

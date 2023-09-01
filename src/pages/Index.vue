@@ -30,11 +30,19 @@ Layout
 </template>
 <style lang="scss">
 .bohns-cover {
-  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 3rem 0;
+
+  @media (min-width: 600px) {
+    padding: 5rem 0;
+  }
+
+  @media (min-width: 1000px) {
+    padding: 10rem 0;
+  }
 
   img {
     width: 100%;
