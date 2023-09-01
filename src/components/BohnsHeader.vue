@@ -23,7 +23,7 @@ header.bohns-header
                     i.fab.fa-github
 </template>
 <style lang="scss">
-.header {
+header {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ header.bohns-header
     color: black;
     text-decoration: none;
 
-    @media (min-width: 800px) {
+    @media (min-width: 1000px) {
         flex-direction: row;
         justify-content: space-between;
     }
@@ -75,7 +75,7 @@ header.bohns-header
     gap: 0.5rem;
     border-bottom: 1px solid var(--bohns-def-50);
 
-    @media (min-width: 800px) {
+    @media (min-width: 600px) {
         flex-direction: row;
         align-items: center;
         gap: 2rem;
