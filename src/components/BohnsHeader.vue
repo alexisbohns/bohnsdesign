@@ -1,10 +1,16 @@
 <template lang="pug">
 header.bohns-header
-    a.bohns-header-author(href="/")
-        g-image(src="~/assets/images/alexis-bohn-product-designer.webp" class='bohns-header-author-picture' alt='Alexis Bohn')
-        .bohns-header-author-body
-            h1.bohns-header-author-body-name Alexis Bohn
-            .bohns-header-author-body-title Product, brand & design
+    .bohns-header-top
+    .bohns-header-head
+        a.bohns-header-alexis(href="/")
+            g-image(src="~/assets/images/alexis-bohn-product-designer.webp" class='bohns-header-picture' alt='Alexis Bohn')
+            .bohns-header-heading
+                h1.bohns-header-title Alexis Bohn
+                .bohns-header-subtitle Product, brand & design
+        // .bohns-header-navigation
+            a.bohns-header-navigation-item(href="/") Home
+            a.bohns-header-navigation-item(href="/") About
+            a.bohns-header-navigation-item(href="/") Works
     .bohns-header-contact
         .bohns-header-contact-item
             .bohns-header-contact-item-label phone
@@ -16,55 +22,65 @@ header.bohns-header
             .bohns-header-contact-item-label social
             .bohns-header-contact-item-data
                 a(href="https://linkedin.com/in/bohns")
-                    i.fab.fa-linkedin
+                    span LinkedIn
                 a(href="https://www.behance.net/alexisbohn")
-                    i.fab.fa-behance
+                    span Behance
                 a(href="https://github.com/alexisbohns")
-                    i.fab.fa-github
+                    span GitHub
 </template>
 <style lang="scss">
-header {
-    width: 100%;
+.bohns-header {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    color: black;
-    text-decoration: none;
-
-    @media (min-width: 1000px) {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-.bohns-header-author {
-    display: flex;
     align-items: center;
-    gap: 1rem;
-    color: var(--bohns-primary);
-    text-decoration: none;
-    &-picture {
-        max-width: 96px;
-        border-radius: 1rem;
-    }
-    &-body {
+    justify-content: space-between;
+    height: 100%;
+    gap: 2rem;
+
+    &-head {
         display: flex;
         flex-direction: column;
         align-items: center;
-    
-        @media (min-width: 480px) {
-            align-items: flex-start;
-        }
+        color: var(--bohns-color-dark);
+        text-decoration: none;
+        gap: 2rem;
+    }
 
-        &-name {
-            font-family: var(--bohns-ff-headings);
-            font-size: 2rem;
-            margin: 0;
-            line-height: 100%;
-        }
-        &-title {
-            font-variation-settings: "wght" 200;
-            font-size: 1rem;
-        }
+    &-alexis {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+        color: var(--bohns-color-dark);
+        text-decoration: none;
+    }
+
+    &-picture {
+        width: 4rem;
+        border-radius: 20%;
+    }
+
+    &-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0;  
+    }
+
+    &-subtitle {
+        margin: 0;
+    }
+
+    &-navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
     }
 }
 
@@ -79,6 +95,9 @@ header {
         flex-direction: row;
         align-items: center;
         gap: 2rem;
+        padding: 1rem;
+        border-radius: 1rem 1rem 0 0;
+        background: white;
     }
 
     &-item {

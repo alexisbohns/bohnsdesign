@@ -1,10 +1,10 @@
 :root {
-    --bohns-ff-body: halyard-text-variable, sans-serif;
-    // --bohns-ff-heading: ;
-    --bohns-ff-headings: halyard-display-variable, sans-serif;
+    --bohns-font-body: arial, sans-serif;
+    --bohns-font-headings: arial, sans-serif;
+    --bohns-font-post: georgia, serif;
 
-    --bohns-primary: #1F4037;
-    --bohns-action: #3A8955;
-
-    --bohns-def-50: #D2D9D7;
+    --bohns-color-dark: #222222;
+    --bohns-color-middle: #555555;
+    --bohns-color-action: #0000FF;
+    --bohns-color-light: #F3F3F3;
 }
