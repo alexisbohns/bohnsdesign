@@ -1,5 +1,15 @@
+<script>
+export default {
+  props: {
+    compact: {
+      type: Boolean,
+      default: true
+    }
+  }
+}
+</script>
 <template lang="pug">
-header.bohns-header
+header.bohns-header(:class="{'display-full': !compact,'display-compact': compact}")
     .bohns-header-top
     .bohns-header-head
         a.bohns-header-alexis(href="/")
@@ -54,17 +64,28 @@ header.bohns-header
         justify-content: center;
         color: var(--bohns-color-dark);
         text-decoration: none;
+
+        &:hover {
+            .bohns-header-heading {
+                opacity: 0.75;
+            }
+        }
     }
 
     &-picture {
-        width: 4rem;
-        border-radius: 20%;
+        width: 6rem;
+        border-radius: 15%;
+        filter: grayscale(1);
+        &:hover {
+            filter: grayscale(0);
+        }
     }
 
     &-heading {
         display: flex;
         flex-direction: column;
         align-items: center;
+        transition: all ease-in-out 0.2s;
     }
 
     &-title {

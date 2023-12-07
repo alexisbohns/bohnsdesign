@@ -29,7 +29,7 @@ export default {
 Layout
   .bohns-cover-container
     .bohns-cover-content
-        BohnsHeader
+        BohnsHeader(:compact="false")
   // a.cta(href="/blog") Read my blog
 </template>
 <style lang="scss">
