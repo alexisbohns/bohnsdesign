@@ -1,14 +1,18 @@
-# Default starter for Gridsome
+# Welcome fellows
 
-This is the project you get when you run `gridsome create new-project`.
+## Tech
 
-### 1. Install Gridsome CLI tool if you don't have
+This is the repository of my personal website.
 
-`npm install --global @gridsome/cli`
+- It is built using Gridsome (Vue.js).
+- I utilize PUG and SCSS preprocessors.
+- Hosting, deployment tools, and CI checks are provided by Netlify.
+- The domain is managed through Google Domains.
 
-### 2. Create a Gridsome project
+## Get in touch
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+Don't hesitate to...
+
+- Add me on [Linkedin](https://www.linkedin.com/in/bohns)
+- Discover my works on [Behance](https://www.behance.net/alexisbohn)
+- Take a look to my [GitHub](https://github.com/alexisbohns)
