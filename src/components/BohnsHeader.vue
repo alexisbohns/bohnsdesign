@@ -62,22 +62,17 @@ header.bohns-header(:class="{'display-full': !compact,'display-compact': compact
         gap: 1rem;
         align-items: center;
         justify-content: center;
-        color: var(--bohns-color-dark);
         text-decoration: none;
-
-        &:hover {
-            .bohns-header-heading {
-                opacity: 0.75;
-            }
-        }
+        color: white;
     }
 
     &-picture {
         width: 6rem;
         border-radius: 15%;
-        filter: grayscale(1);
+        filter: saturate(1);
+        transition: all ease-in-out 0.25s;
         &:hover {
-            filter: grayscale(0);
+            filter: saturate(0.5);
         }
     }
 
@@ -89,8 +84,8 @@ header.bohns-header(:class="{'display-full': !compact,'display-compact': compact
     }
 
     &-title {
+        font-family: var(--bohns-font-headings);
         font-size: 1.5rem;
-        font-weight: bold;
         margin: 0;  
     }
 
@@ -111,19 +106,25 @@ header.bohns-header(:class="{'display-full': !compact,'display-compact': compact
     align-items: flex-start;
     gap: 0.5rem;
     border-bottom: 1px solid var(--bohns-def-50);
+    background: white;
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 0;
 
     @media (min-width: 600px) {
-        flex-direction: row;
         align-items: center;
+        flex-direction: row;
         gap: 2rem;
-        padding: 1rem;
-        border-radius: 1rem 1rem 0 0;
-        background: white;
     }
 
     &-item {
         display: flex;
         flex-direction: column;
+
+        &-label {
+            text-transform: uppercase;
+            letter-spacing: 0.125rem;
+            font-size: 0.75rem;
+        }
 
         &-data {
             display: flex;

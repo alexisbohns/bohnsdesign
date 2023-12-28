@@ -29,7 +29,9 @@ export default {
 Layout
   .bohns-cover-container
     .bohns-cover-content
-        BohnsHeader(:compact="false")
+      video(autoplay="" loop="" muted="" class="bohns-cover-content-video")
+        source(src="../assets/images/clip.mp4" type="video/mp4")
+      BohnsHeader(:compact="false")
   // a.cta(href="/blog") Read my blog
 </template>
 <style lang="scss">
@@ -42,14 +44,24 @@ Layout
     padding: 2rem;
   }
   &-content {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: var(--bohns-color-light);
+    // background: linear-gradient(#E8F0EB, #EEF9F2);
     width: 100%;
     height: 100%;
     border-radius: 2rem;
+    overflow: hidden;
+
+    &-video {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      object-fit: cover;
+      z-index: -1;
+    }
   }
   &-body {
     display: flex;
