@@ -1,6 +1,7 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
 	import Sidebar from '$lib/components/Sidebar.svelte';
+	import ThemeSwitch from '$lib/components/ThemeSwitch.svelte';
 	import '../app.css';
 
 	let { children } = $props();
@@ -9,6 +10,8 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
+
+<ThemeSwitch />
 
 <div class="layout">
 	<Sidebar />

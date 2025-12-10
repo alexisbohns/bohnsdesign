@@ -3,7 +3,16 @@
 }
 
 :root {
-	--background: #18131b;
+	--background-bohnsdesign: #18131b;
+	--background-darkslateblue: darkslateblue;
+	--background-midnightblue: midnightblue;
+	--background-darkslategray: darkslategray;
+	--background-dimgray: dimgray;
+	--background-blackcoffee: #3b2f2f;
+	--background-bulgarianrose: #480607;
+	--background-castletongreen: #00563f;
+
+	--background: var(--background-bohnsdesign);
 	--foreground: rgba(255, 255, 255, 0.9);
 	--border-color: rgba(255, 255, 255, 0.1);
 	--ghost: rgba(255, 255, 255, 0.03);
@@ -14,6 +23,12 @@
 	@media screen and (min-width: 800px) {
 		--spacer-lg: 2.5rem;
 	}
+}
+
+*:focus-visible {
+	outline: 2px solid var(--foreground);
+	outline-offset: 5px;
+	border-radius: 0.25rem;
 }
 
 ::selection {
@@ -31,31 +46,28 @@ body {
 }
 
 body.darkslateblue {
-	--background: darkslateblue;
+	--background: var(--background-darkslateblue);
 }
 body.midnightblue {
-	--background: midnightblue;
+	--background: var(--background-midnightblue);
 }
 body.darkslategray {
-	--background: darkslategray;
+	--background: var(--background-darkslategray);
 }
 body.dimgray {
-	--background: dimgray;
+	--background: var(--background-dimgray);
 }
 body.blackcoffee {
-	--background: #3b2f2f;
+	--background: var(--background-blackcoffee);
 }
 body.bulgarianrose {
-	--background: #480607;
+	--background: var(--background-bulgarianrose);
 }
 body.castletongreen {
-	--background: #00563f;
-}
-body.maroon {
-	--background: maroon;
+	--background: var(--background-castletongreen);
 }
 body.bohnsdesign {
-	--background: #18131b;
+	--background: var(--background-bohnsdesign);
 }
 
 a {
