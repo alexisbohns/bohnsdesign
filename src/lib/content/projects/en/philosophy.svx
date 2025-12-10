@@ -6,7 +6,7 @@ logo: "/projects/logos/project_pebbles.svg"
 links:
   linkedin: "https://linkedin.com/in/bohns"
 order: 3
-published: true
+published: false
 ---
 
 ## Ce que je fais

@@ -4,7 +4,7 @@ title: "Music"
 description: "I express personal feelings and ideas through rock, folk, rap and electro"
 logo: "/projects/logos/project_music.jpg"
 links:
-  soundcloud: "https://soundcloud.com/artist/bohns"
+  soundcloud: "https://soundcloud.com/bohns"
 order: 2
 published: true
 ---

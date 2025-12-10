@@ -5,6 +5,8 @@ description: "I craft meaningful user experiences through digital products and s
 logo: "/projects/logos/project_design.svg"
 links:
   linkedin: "https://linkedin.com/in/bohns"
+  behance: "https://www.behance.net/alexisbohn"
+  github: "https://github.com/alexisbohns"
 order: 1
 published: true
 ---
