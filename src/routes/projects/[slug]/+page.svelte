@@ -29,50 +29,48 @@
 	);
 </script>
 
-<main>
-	<nav aria-label="Project navigation" class="project-rail">
-		<ul>
-			{#each projects as navProject (navProject.slug)}
-				<ProjectItem
-					project={navProject}
-					variant="compact"
-					state={navProject.slug === project.slug ? 'default' : 'inactive'}
-					isCurrent={navProject.slug === project.slug}
-				/>
-			{/each}
-		</ul>
-	</nav>
-	<article>
-		<header>
-			<h1 class="project-title">{project.title}</h1>
-			<p class="project-description">{project.description}</p>
-			{#if linkEntries.length}
-				<section aria-label="External links" class="project-links">
-					<ul>
-						{#each linkEntries as [key, url] (key)}
-							{@const icon = PROJECT_LINK_ICONS[key]}
-							{@const label = getProjectLinkLabel(key, locale)}
-							<li>
-								<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
-								<a href={url} target="_blank" rel="noopener noreferrer" aria-label={label}>
-									<Icon {icon} size={18} />
-									<span>{label}</span>
-								</a>
-							</li>
-						{/each}
-					</ul>
-				</section>
-			{/if}
-		</header>
-
-		{#if contentPromise}
-			{#await contentPromise then module}
-				{@const Content = module.default}
-				<Content />
-			{/await}
+<nav aria-label="Project navigation" class="project-rail">
+	<ul>
+		{#each projects as navProject (navProject.slug)}
+			<ProjectItem
+				project={navProject}
+				variant="compact"
+				state={navProject.slug === project.slug ? 'default' : 'inactive'}
+				isCurrent={navProject.slug === project.slug}
+			/>
+		{/each}
+	</ul>
+</nav>
+<article>
+	<header>
+		<h1 class="project-title">{project.title}</h1>
+		<p class="project-description">{project.description}</p>
+		{#if linkEntries.length}
+			<section aria-label="External links" class="project-links">
+				<ul>
+					{#each linkEntries as [key, url] (key)}
+						{@const icon = PROJECT_LINK_ICONS[key]}
+						{@const label = getProjectLinkLabel(key, locale)}
+						<li>
+							<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+							<a href={url} target="_blank" rel="noopener noreferrer" aria-label={label}>
+								<Icon {icon} size={18} />
+								<span>{label}</span>
+							</a>
+						</li>
+					{/each}
+				</ul>
+			</section>
 		{/if}
-	</article>
-</main>
+	</header>
+
+	{#if contentPromise}
+		{#await contentPromise then module}
+			{@const Content = module.default}
+			<Content />
+		{/await}
+	{/if}
+</article>
 
 <style>
 	article {
@@ -92,17 +90,17 @@
 	.project-rail ul {
 		border-top: 1px solid var(--border-color);
 		border-bottom: 1px solid var(--border-color);
-
-		@media screen and (min-width: 800px) {
-			background-color: var(--background);
-			border-top: none;
-			border-radius: 0 0 1rem 1rem;
-		}
+		background-color: var(--background);
 		list-style: none;
 		padding: 1rem;
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		gap: 1rem;
+
+		@media screen and (min-width: 800px) {
+			border-top: none;
+		}
+		
 	}
 	header {
 		display: flex;

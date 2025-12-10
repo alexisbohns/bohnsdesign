@@ -10,6 +10,4 @@
 	const heading = $derived(getProjectsHeading(locale));
 </script>
 
-<main>
-	<SectionProjects {heading} projects={data.projects} />
-</main>
+<SectionProjects {heading} projects={data.projects} />

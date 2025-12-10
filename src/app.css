@@ -3,9 +3,10 @@
 }
 
 :root {
-	--background: rgb(10, 10, 10);
+	--background: #18131b;
 	--foreground: rgba(255, 255, 255, 0.9);
 	--border-color: rgba(255, 255, 255, 0.1);
+	--ghost: rgba(255, 255, 255, 0.03);
 	--muted-color: rgba(255, 255, 255, 0.3);
 
 	--spacer-lg: 2rem;
@@ -27,6 +28,34 @@ body {
 	background-color: var(--background);
 	color: var(--foreground);
 	font-weight: 300;
+}
+
+body.darkslateblue {
+	--background: darkslateblue;
+}
+body.midnightblue {
+	--background: midnightblue;
+}
+body.darkslategray {
+	--background: darkslategray;
+}
+body.dimgray {
+	--background: dimgray;
+}
+body.blackcoffee {
+	--background: #3b2f2f;
+}
+body.bulgarianrose {
+	--background: #480607;
+}
+body.castletongreen {
+	--background: #00563f;
+}
+body.maroon {
+	--background: maroon;
+}
+body.bohnsdesign {
+	--background: #18131b;
 }
 
 a {
