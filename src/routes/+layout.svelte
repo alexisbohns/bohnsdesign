@@ -45,6 +45,7 @@
 		align-items: start;
 		position: sticky;
 		width: 100%;
+		user-select: none;
 		@media screen and (min-width: 800px) {
 			max-width: 28rem;
 			align-items: end;

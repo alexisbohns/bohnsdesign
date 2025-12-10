@@ -44,6 +44,7 @@
 <style>
 	.project-item {
 		list-style: none;
+		user-select: none;
 	}
 	.project-item.variant-default {
 		margin-bottom: var(--spacer-lg);
