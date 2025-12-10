@@ -100,7 +100,6 @@
 		@media screen and (min-width: 800px) {
 			border-top: none;
 		}
-		
 	}
 	header {
 		display: flex;

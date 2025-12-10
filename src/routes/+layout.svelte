@@ -24,7 +24,6 @@
 	</main>
 </div>
 
-
 <style>
 	.layout {
 		@media screen and (min-width: 800px) {
@@ -65,7 +64,7 @@
 	}
 	.d {
 		display: none;
-		
+
 		@media screen and (min-width: 800px) {
 			display: block;
 		}
