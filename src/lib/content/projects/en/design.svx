@@ -1,0 +1,13 @@
+---
+slug: "design"
+title: "Design"
+description: "I craft meaningful user experiences through digital products and services"
+logo: "/projects/logos/project_design.svg"
+links:
+  linkedin: "https://linkedin.com/in/bohns"
+order: 1
+published: true
+---
+
+## Ce que je fais
+Ton contenu riche en Markdown ici (images, listes, etc.).

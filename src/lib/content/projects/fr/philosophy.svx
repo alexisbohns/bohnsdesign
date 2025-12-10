@@ -1,0 +1,13 @@
+---
+slug: "philosophy"
+title: "Philosophy"
+description: "I explore existential and cognitive questions through tools and writing"
+logo: "/projects/logos/project_pebbles.svg"
+links:
+  linkedin: "https://linkedin.com/in/bohns"
+order: 3
+published: true
+---
+
+## Ce que je fais
+Ton contenu riche en Markdown ici (images, listes, etc.).

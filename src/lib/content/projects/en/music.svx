@@ -1,0 +1,13 @@
+---
+slug: "music"
+title: "Music"
+description: "I express personal feelings and ideas through rock, folk, rap and electro"
+logo: "/projects/logos/project_music.jpg"
+links:
+  soundcloud: "https://soundcloud.com/artist/bohns"
+order: 2
+published: true
+---
+
+## Ce que je fais
+Ton contenu riche en Markdown ici (images, listes, etc.).

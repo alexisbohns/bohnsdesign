@@ -1,0 +1,15 @@
+---
+slug: "culture"
+title: "Culture"
+description: "I promote feminine and feminist artists through podcasting and writing"
+logo: "/projects/logos/project_femfolk.svg"
+links:
+  apple_podcast: "https://linkedin.com/in/bohns"
+  spotify: "https://linkedin.com/in/bohns"
+  deezer: "https://linkedin.com/in/bohns"
+order: 4
+published: true
+---
+
+## Ce que je fais
+Ton contenu riche en Markdown ici (images, listes, etc.).
