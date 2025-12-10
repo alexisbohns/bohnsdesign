@@ -3,8 +3,8 @@
 }
 
 :root {
-	--background: black;
-	--foreground: white;
+	--background: rgb(10, 10, 10);
+	--foreground: rgba(255, 255, 255, 0.9);
 	--border-color: rgba(255, 255, 255, 0.1);
 	--muted-color: rgba(255, 255, 255, 0.3);
 

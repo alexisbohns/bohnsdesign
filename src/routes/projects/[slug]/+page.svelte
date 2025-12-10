@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { resolve } from '$app/paths';
 	import ProjectItem from '$lib/components/ProjectItem.svelte';
 	import type { ComponentType } from 'svelte';
 	import type { PageData } from './$types';
@@ -39,7 +38,7 @@
 					<ul>
 						{#each linkEntries as [key, url] (key)}
 							<li>
-								<a href={resolve(url)} target="_blank" rel="noopener noreferrer">
+								<a href={url} target="_blank" rel="noopener noreferrer">
 									{key}
 								</a>
 							</li>
@@ -74,7 +73,8 @@
 		}
 	}
 	.project-rail ul {
-		border: 1px solid var(--border-color);
+		border-top: 1px solid var(--border-color);
+		border-bottom: 1px solid var(--border-color);
 
 		@media screen and (min-width: 800px) {
 			background-color: var(--background);
