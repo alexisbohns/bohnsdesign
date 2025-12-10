@@ -1,18 +1,38 @@
-# Welcome fellows
+# sv
 
-## Tech
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-This is the repository of my personal website.
+## Creating a project
 
-- It is built using Gridsome (Vue.js).
-- I utilize PUG and SCSS preprocessors.
-- Hosting, deployment tools, and CI checks are provided by Netlify.
-- The domain is managed through Google Domains.
+If you're seeing this, you've probably already done this step. Congrats!
 
-## Get in touch
+```sh
+# create a new project in the current directory
+npx sv create
 
-Don't hesitate to...
+# create a new project in my-app
+npx sv create my-app
+```
 
-- Add me on [Linkedin](https://www.linkedin.com/in/bohns)
-- Discover my works on [Behance](https://www.behance.net/alexisbohn)
-- Take a look to my [GitHub](https://github.com/alexisbohns)
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```sh
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```sh
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.

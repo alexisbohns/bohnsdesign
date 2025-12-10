@@ -1,1 +1,0 @@
-// Here will be stored netlify cms static assets
