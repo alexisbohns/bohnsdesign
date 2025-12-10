@@ -15,7 +15,7 @@
 	#curve {
 		stroke-width: 0.1em;
 		stroke-linecap: round;
-		stroke: var(--foreground);
+		stroke: var(--border-color);
 		stroke-opacity: 1;
 		overflow: visible;
 	}

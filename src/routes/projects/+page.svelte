@@ -1,5 +1,4 @@
 <script lang="ts">
-	import SectionAbout from '$lib/components/SectionAbout.svelte';
 	import SectionProjects from '$lib/components/SectionProjects.svelte';
 	import { getProjectsHeading } from '$lib/constants/projects';
 	import type { Locale } from '$lib/server/content/projects';
@@ -12,6 +11,5 @@
 </script>
 
 <main>
-	<SectionAbout />
 	<SectionProjects {heading} projects={data.projects} />
 </main>

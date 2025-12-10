@@ -53,6 +53,7 @@
 							{@const icon = PROJECT_LINK_ICONS[key]}
 							{@const label = getProjectLinkLabel(key, locale)}
 							<li>
+								<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
 								<a href={url} target="_blank" rel="noopener noreferrer" aria-label={label}>
 									<Icon {icon} size={18} />
 									<span>{label}</span>
