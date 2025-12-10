@@ -16,6 +16,14 @@
 </script>
 
 <main>
+	<section id="about" aria-labelledby="about-title">
+		<h2 id="about-title">About</h2>
+		<p>
+			Welcome to my projects portfolio! Here you'll find a selection of my work, showcasing my
+			skills and creativity across various domains. Each project reflects my dedication to quality
+			and innovation. Feel free to explore and learn more about the projects that inspire me.
+		</p>
+	</section>
 	<section id="projects" aria-labelledby="projects-title">
 		<h2 id="projects-title">{heading}</h2>
 		<ul>
@@ -25,27 +33,3 @@
 		</ul>
 	</section>
 </main>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		gap: 2rem;
-		padding: 2rem;
-		@media screen and (min-width: 800px) {
-			min-height: 100vh;
-			min-height: 100dvh;
-			gap: var(--spacer-lg);
-			padding: var(--spacer-lg);
-		}
-	}
-	h2 {
-		font-family: 'Space Grotesk', sans-serif;
-		text-transform: uppercase;
-		letter-spacing: 0.2rem;
-		font-size: var(--spacer-lg);
-		opacity: 0.1;
-		font-weight: bold;
-	}
-</style>
