@@ -54,7 +54,7 @@
 							{@const label = getProjectLinkLabel(key, locale)}
 							<li>
 								<a href={url} target="_blank" rel="noopener noreferrer" aria-label={label}>
-									<Icon icon={icon} size={18} />
+									<Icon {icon} size={18} />
 									<span>{label}</span>
 								</a>
 							</li>
