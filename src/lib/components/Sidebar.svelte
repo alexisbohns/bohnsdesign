@@ -115,7 +115,7 @@
 		@media screen and (min-width: 800px) {
 			flex-direction: column;
 			align-items: end;
-			gap: 0.25rem;
+			gap: 0.8rem;
 		}
 	}
 	li.header-navigation-item a {
