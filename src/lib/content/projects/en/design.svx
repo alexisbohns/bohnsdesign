@@ -9,5 +9,25 @@ order: 1
 published: true
 ---
 
-## Ce que je fais
-Ton contenu riche en Markdown ici (images, listes, etc.).
+## General Design
+
+The generator is made up of the words of the 6 LotR & Hobbit movies' extended versions. These words are separated into 3 categories: regular words, proper nouns and actual quotes from the films, the latter two are hand-curated. We use a combination of these 3 dictionaries to generate texts for every occasion.
+
+Technology-wise, extracting the words from the subtitle files was done in Python. The website itself and the random text generation was written in PHP. We have a bunch of Javascript functions to handle formatting and clipboard operations.
+
+## Features
+
+Why we think our tool is better than the ones out there:
+
+* No duplicate words in sentences. How annoying is that?
+* Punctuation marks at the end of sentences are weighted random.
+* Random number of words per sentence and sentences per paragraph.
+* There's at least one proper noun per generated sentence.
+* There's at least one quote per generated paragraph.
+* Indented Copy to Clipboard functionality.
+
+## Motivation
+
+It started out as a fun project, but as we poured more hours into the development, we quickly realized that there's a whole lot we can improve over existing lorem ipsum generator websites.
+
+As coders we find random text generators useful for our work, but they lack a certain je ne sais quoi to effortlessly integrate into our work. So, we've implemented a handful of quality of life improvements to make using this tool for fellow web designers and developers as hassle-free as possible.

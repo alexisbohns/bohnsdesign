@@ -9,10 +9,12 @@ export const prerender = true;
 export const load: PageServerLoad = async () => {
 	const locale = (getLocale() ?? baseLocale) as Locale;
 
-	const projectsWithComponents = getAllProjects(locale);
-	const projects: SerializableProject[] = projectsWithComponents.map(
-		({ component, ...project }) => project
-	);
+	const projectsWithComponents = getAllProjects(locale, { includeUnpublished: true });
+	const projects: SerializableProject[] = projectsWithComponents.map((projectWithComponent) => {
+		const { component: _component, ...project } = projectWithComponent;
+		void _component;
+		return project;
+	});
 
 	if (projects.length) {
 		return { locale, projects };
@@ -21,6 +23,12 @@ export const load: PageServerLoad = async () => {
 	const fallbackLocale = baseLocale as Locale;
 	return {
 		locale: fallbackLocale,
-		projects: getAllProjects(fallbackLocale).map(({ component, ...project }) => project)
+		projects: getAllProjects(fallbackLocale, { includeUnpublished: true }).map(
+			(projectWithComponent) => {
+				const { component: _component, ...project } = projectWithComponent;
+				void _component;
+				return project;
+			}
+		)
 	};
 };

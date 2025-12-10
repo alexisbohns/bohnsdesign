@@ -2,11 +2,20 @@
 	box-sizing: border-box;
 }
 
+:root {
+	--background: black;
+	--foreground: white;
+	--border-color: rgba(255, 255, 255, 0.1);
+	--muted-color: rgba(255, 255, 255, 0.3);
+
+	--spacer-lg: 2.5rem;
+}
+
 body {
 	margin: 0;
 	font-family: 'Space Grotesk', sans-serif;
-	background-color: black;
-	color: white;
+	background-color: var(--background);
+	color: var(--foreground);
 	font-weight: 300;
 }
 
@@ -34,4 +43,32 @@ ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+
+article h2 {
+	font-size: 2rem;
+	margin: var(--spacer-lg) 0 1rem;
+}
+
+article p {
+	font-size: 1.25rem;
+	line-height: 1.4;
+}
+
+article li {
+	font-size: 1.1rem;
+	line-height: 1.4;
+	margin: 0.4rem 0;
+	list-style-type: '✻';
+	padding-left: 1rem;
+}
+
+article li::marker {
+	color: var(--muted-color);
+}
+
+article ul {
+	list-style: disc;
+	margin: 0 0 1.5rem;
+	padding-left: 1.2rem;
 }

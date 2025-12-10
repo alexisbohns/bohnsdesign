@@ -19,8 +19,8 @@
 	<section id="projects" aria-labelledby="projects-title">
 		<h2 id="projects-title">{heading}</h2>
 		<ul>
-			{#each data.projects as project}
-				<ProjectItem {project} />
+			{#each data.projects as project (project.slug)}
+				<ProjectItem {project} state={project.published ? 'default' : 'disabled'} />
 			{/each}
 		</ul>
 	</section>
@@ -33,18 +33,18 @@
 		justify-content: center;
 		gap: 2rem;
 		padding: 2rem;
-		@media screen and (min-width: 720px) {
+		@media screen and (min-width: 800px) {
 			min-height: 100vh;
 			min-height: 100dvh;
-			gap: 2.5rem;
-			padding: 2.5rem;
+			gap: var(--spacer-lg);
+			padding: var(--spacer-lg);
 		}
 	}
 	h2 {
 		font-family: 'Space Grotesk', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
-		font-size: 2.5rem;
+		font-size: var(--spacer-lg);
 		opacity: 0.1;
 		font-weight: bold;
 	}

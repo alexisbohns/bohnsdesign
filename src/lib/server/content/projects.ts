@@ -28,7 +28,13 @@ const modules = import.meta.glob<Loaded>('/src/lib/content/projects/*/*.{svx,md}
 	eager: true
 });
 
-export function getAllProjects(locale: Locale): Project[] {
+type GetProjectsOptions = {
+	includeUnpublished?: boolean;
+};
+
+export function getAllProjects(locale: Locale, options: GetProjectsOptions = {}): Project[] {
+	const { includeUnpublished = false } = options;
+
 	return Object.entries(modules)
 		.filter(([path]) => path.includes(`/projects/${locale}/`))
 		.map(([filepath, mod]) => {
@@ -39,10 +45,14 @@ export function getAllProjects(locale: Locale): Project[] {
 				filepath
 			};
 		})
-		.filter((p) => p.published)
+		.filter((p) => includeUnpublished || p.published)
 		.sort((a, b) => (a.order ?? 999) - (b.order ?? 999));
 }
 
-export function getProjectBySlug(locale: Locale, slug: string): Project | undefined {
-	return getAllProjects(locale).find((project) => project.slug === slug);
+export function getProjectBySlug(
+	locale: Locale,
+	slug: string,
+	options: GetProjectsOptions = {}
+): Project | undefined {
+	return getAllProjects(locale, options).find((project) => project.slug === slug);
 }

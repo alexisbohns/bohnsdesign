@@ -30,12 +30,13 @@
 
 <style>
 	.layout {
-		@media screen and (min-width: 720px) {
+		@media screen and (min-width: 800px) {
+			max-width: 1200px;
 			display: grid;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 2fr 3fr;
 			position: relative;
-			align-items: start;
-			gap: 2.5rem;
+			align-items: flex-start;
+			gap: var(--spacer-lg);
 		}
 	}
 	header {
@@ -43,13 +44,16 @@
 		flex-direction: column;
 		align-items: start;
 		position: sticky;
-		max-width: 35rem;
-		@media screen and (min-width: 720px) {
+		width: 100%;
+		@media screen and (min-width: 800px) {
+			max-width: 28rem;
 			align-items: end;
+			position: sticky;
+			top: 0;
 		}
 	}
 	.header-logotype {
-		font-size: 2.5rem;
+		font-size: var(--spacer-lg);
 		font-style: normal;
 		font-weight: 300;
 	}
@@ -67,9 +71,9 @@
 		align-items: start;
 		gap: 1rem;
 		padding: 2rem;
-		@media screen and (min-width: 720px) {
+		@media screen and (min-width: 800px) {
 			margin-top: 1rem;
-			padding: 0;
+			padding: 0 0 0 2rem;
 			align-items: end;
 		}
 	}
@@ -79,7 +83,7 @@
 		margin: 0;
 		display: flex;
 		gap: 1rem;
-		@media screen and (min-width: 720px) {
+		@media screen and (min-width: 800px) {
 			flex-direction: column;
 			align-items: end;
 			gap: 0.25rem;
@@ -96,7 +100,7 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 0.1rem;
-		@media screen and (min-width: 720px) {
+		@media screen and (min-width: 800px) {
 			gap: 0.5rem;
 			flex-direction: row;
 		}
@@ -105,7 +109,7 @@
 		opacity: 1;
 	}
 	li.header-navigation-item a::after {
-		@media screen and (min-width: 720px) {
+		@media screen and (min-width: 800px) {
 			content: '•';
 			opacity: 0.3;
 		}
@@ -115,7 +119,7 @@
 		font-weight: bold;
 	}
 	li.header-navigation-item a.active::after {
-		@media screen and (min-width: 720px) {
+		@media screen and (min-width: 800px) {
 			content: '•';
 			opacity: 1;
 		}
