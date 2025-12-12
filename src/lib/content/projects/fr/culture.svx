@@ -1,7 +1,7 @@
 ---
 slug: "culture"
 title: "Culture"
-description: "I promote feminine and feminist artists through podcasting and writing"
+description: "Je mets en avant des artistes féminines et féministes grâce au podcast et à l'écriture"
 logo: "/projects/logos/project_femfolk.svg"
 links:
   apple_podcast: "https://linkedin.com/in/bohns"
@@ -11,4 +11,14 @@ order: 4
 published: false
 ---
 
-TODO: Traduire ce texte en français.
+J'explore comment la culture façonne les identités et les communautés, et j'y contribue en mettant en lumière des voix féminines et féministes à travers le récit et la curation.
+
+## Ce que je fais
+
+* **Podcasting** j'anime Femfolk, un podcast qui amplifie les artistes féminines et féministes.
+* **Écriture** je crée des articles et des essais sur des sujets culturels.
+* **Curation** je sélectionne et promeus des œuvres qui reflètent des perspectives diverses.
+
+## Pourquoi je le fais
+
+Parce que la culture est un organisme vivant, enrichi par la diversité. Et parce que partager l'art, c'est partager des possibles.

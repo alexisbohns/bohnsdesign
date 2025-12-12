@@ -1,7 +1,7 @@
 ---
 slug: "design"
 title: "Design"
-description: "I craft meaningful user experiences through digital products and services"
+description: "Je conçois des expériences utilisateur porteuses de sens à travers des produits et services numériques"
 logo: "/projects/logos/project_design.svg"
 links:
   linkedin: "https://linkedin.com/in/bohns"
@@ -11,4 +11,35 @@ order: 1
 published: true
 ---
 
-TODO: Traduire ce texte en français.
+Je conçois des produits et services qui aident les gens à traverser la complexité avec clarté. Mon approche mélange stratégie, psychologie et design opérationnel pour façonner des expériences intuitives et humaines.
+
+## Ce que je fais
+
+* **Stratégie produit** définir visions, propositions de valeur, champs d'opportunité.
+* **Gestion de produit** aligner les équipes, prioriser, traduire les besoins en feuilles de route.
+* **Design UX/UI** façonner parcours, interfaces et interactions ancrées dans des besoins réels.
+* **Recherche & facilitation** mener des entretiens, animer des ateliers, cartographier des systèmes.
+* **Delivery** transformer des idées en fonctionnalités concrètes, testables, mesurables.
+
+## Comment je travaille
+
+* **Observer** je commence par l'observation et le contexte. Qui aidons-nous ? Pourquoi est-ce important ?
+* **Déceler** j'identifie les tensions, motivations et frictions.
+* **Traduire** je les transforme en opportunités et hypothèses.
+* **Concevoir** je dessine des solutions qui équilibrent ambition et faisabilité.
+* **Itérer** j'itère avec les équipes, en apprenant et affinant en continu.
+
+## Pourquoi je le fais
+
+Parce que des produits bien conçus réduisent le bruit. Ils donnent du pouvoir aux gens. Ils ouvrent un espace pour le sens. Le design est au moins aussi profondément humain qu'il est technique.
+
+## Influences
+
+* **Steve Jobs** pour sa quête incessante de valeur et d'élégance.
+* **Apple** pour son attention implacable aux détails et à la cohérence.
+* **Don Norman** pour avoir défendu le design centré sur l'utilisateur.
+* **Atomic Design de Brad Frost** pour promouvoir une pensée design systémique.
+* **Atomic Habits de James Clear** pour ses éclairages sur l'amélioration incrémentale.
+* **Daniel Kahneman** pour avoir éclairé la prise de décision humaine.
+* **Linear Method** pour son approche value-first et sa grande vélocité.
+* **Elements of Value® de Bain&Cie** pour son approche structurée de la résolution de problèmes.

@@ -1,7 +1,7 @@
 ---
 slug: "music"
-title: "Music"
-description: "I express personal feelings and ideas through rock, folk, rap and electro"
+title: "Musique"
+description: "J'exprime mes ressentis et idées personnelles à travers le rock, le folk, le rap et l'électro"
 logo: "/projects/logos/project_music.jpg"
 links:
   soundcloud: "https://soundcloud.com/bohns"
@@ -9,4 +9,28 @@ order: 2
 published: true
 ---
 
-TODO: Traduire ce texte en français.
+La musique est ma façon la plus naturelle d'exprimer ce que les mots ne peuvent contenir. Je compose entre rock, folk, cinématique, électronique, rap et textures expérimentales, en changeant d'instrument selon ce qu'un morceau demande.
+
+## Ce que je fais
+
+* **Composer** des mélodies, harmonies et rythmes.
+* **Arranger** et produire des morceaux complets en versions acoustiques ou plugged.
+* **Écrire** des paroles ancrées dans l'émotion, la perspective et la réflexion.
+* **Enregistrer** avec guitare, basse, piano, claviers, batterie et voix.
+* **Mixer** sur Logic Pro avec une attention portée à l'atmosphère et au récit.
+
+## Pourquoi je le fais
+
+Parce que la musique est ce qui se rapproche le plus de la vérité pour moi. C'est aussi le socle d'une vision artistique plus large mêlant son, lumière, philosophie et élévation personnelle.
+
+## Influences
+
+* **Aurora Aksnes** pour sa sincérité, son authenticité et son universalité.
+* **Rage Against The Machine** pour leur énergie brute et leur engagement politique.
+* **Radiohead** pour leur innovation protéiforme et leur profondeur émotionnelle.
+* **Linkin Park** pour leur fusion du rock, du rap et des éléments électroniques.
+* **Hans Zimmer** pour ses paysages sonores cinématiques et sa narration émotionnelle.
+* **Nina Simone** pour sa voix puissante et son engagement social à travers la musique.
+* **Mark Ronson** pour sa production hybride et ses refrains accrocheurs.
+* **MC Solaar** pour sa plume poétique et son flow fluide.
+* **London Grammar** pour leur son atmosphérique et leurs voix émouvantes.

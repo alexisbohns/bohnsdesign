@@ -1,7 +1,7 @@
 ---
 slug: "philosophy"
-title: "Philosophy"
-description: "I explore existential and cognitive questions through tools and writing"
+title: "Philosophie"
+description: "J'explore les questions existentielles et cognitives à travers des outils et l'écriture"
 logo: "/projects/logos/project_pebbles.svg"
 links:
   linkedin: "https://linkedin.com/in/bohns"
@@ -9,4 +9,37 @@ order: 3
 published: false
 ---
 
-TODO: Traduire ce texte en français.
+Ma démarche philosophique puise ses racines dans la sociologie et la psychologie pour explorer comment les gens donnent du sens à leur vie, y compris la mienne. Mon travail se concentre sur les questions existentielles, les schémas cognitifs et des cadres pratiques pour s'élever en tant qu'individu social.
+
+## Ce que je fais
+
+* **Étudier** la sociologie, les sciences cognitives et la psychologie.
+* **Écrire** sur le sens, l'identité, la perception et la prise de décision.
+* **Imaginer** des méthodes structurées pour soutenir le focus, la résilience et la clarté de soi.
+* **Concevoir** des outils et exercices inspirés de la TCC, de l'ACT et de la phénoménologie.
+* **Construire** Pebblestones, un ensemble d'outils psychologiques simples et actionnables conçu pour aider les gens à faire de petits pas concrets vers une vie meilleure.
+
+## Comment je travaille
+
+* **Observer** je pars de l'expérience vécue.
+* **Rechercher** je la relie à la recherche, à la philosophie et aux sciences cognitives.
+* **Façonner** je façonne les idées en outils pratiques et minimalistes.
+* **Itérer** je les teste, les affine et je ne garde que ce qui est utile.
+
+## Pourquoi je le fais
+
+Parce que les gens ont souvent besoin de clarté plus que de motivation. Et parce que grandir intellectuellement est l'une des plus belles aventures humaines.
+
+## Influences
+
+* **Atomic Habits de James Clear** pour ses éclairages sur l'amélioration incrémentale.
+* **Daniel Kahneman** pour avoir éclairé la prise de décision humaine.
+* **Abraham Maslow** pour sa pyramide des besoins et la psychologie humaniste.
+* **Max Weber** pour son analyse de la modernité et de la rationalisation.
+* **Georg Simmel** pour ses travaux sur les formes sociales et l'identité individuelle.
+* **Karl Marx** pour sa critique du capitalisme et des structures sociales.
+* **Friedrich Nietzsche** pour son exploration de l'existentialisme et de l'individualisme.
+* **Khalil Gibran** pour ses réflexions poétiques sur la vie et la spiritualité.
+* **Nassim Nicholas Taleb** pour ses idées sur l'incertitude et la décision.
+* **Marc Aurèle** pour sa philosophie stoïcienne et sa sagesse pratique.
+* **Henry David Thoreau** pour sa défense d'une vie simple et de l'autonomie.
