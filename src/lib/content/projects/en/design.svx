@@ -11,25 +11,35 @@ order: 1
 published: true
 ---
 
-## General Design
+I design products and services that help people move through complexity with clarity. My approach blends strategy, psychology, and hands-on design to shape experiences that feel intuitive and human.
 
-The generator is made up of the words of the 6 LotR & Hobbit movies' extended versions. These words are separated into 3 categories: regular words, proper nouns and actual quotes from the films, the latter two are hand-curated. We use a combination of these 3 dictionaries to generate texts for every occasion.
+## What I do
 
-Technology-wise, extracting the words from the subtitle files was done in Python. The website itself and the random text generation was written in PHP. We have a bunch of Javascript functions to handle formatting and clipboard operations.
+* **Product strategy** defining visions, value propositions, opportunity spaces.
+* **Product management** aligning teams, prioritizing, translating needs into roadmaps.
+* **UX/UI design** shaping flows, interfaces, and interactions grounded in real needs.
+* **Research & facilitation** interviewing, running workshops, mapping systems.
+* **Delivery** transforming ideas into concrete, testable, measurable features.
 
-## Features
+## How I work
 
-Why we think our tool is better than the ones out there:
+* **Observe** I start with observation and context. Who are we helping? Why does it matter?
+* **Uncover** I uncover tensions, motivations, and frictions.
+* **Translate** I translate them into opportunities and hypotheses.
+* **Design** I design solutions that balance ambition with feasibility.
+* **Iterate** I iterate with teams, continuously learning and refining.
 
-* No duplicate words in sentences. How annoying is that?
-* Punctuation marks at the end of sentences are weighted random.
-* Random number of words per sentence and sentences per paragraph.
-* There's at least one proper noun per generated sentence.
-* There's at least one quote per generated paragraph.
-* Indented Copy to Clipboard functionality.
+## Why I do it
 
-## Motivation
+Because well-designed products reduce noise. They empower people. They open space for meaning. Design, at its best, is both strategic and profoundly human.
 
-It started out as a fun project, but as we poured more hours into the development, we quickly realized that there's a whole lot we can improve over existing lorem ipsum generator websites.
+## Influences
 
-As coders we find random text generators useful for our work, but they lack a certain je ne sais quoi to effortlessly integrate into our work. So, we've implemented a handful of quality of life improvements to make using this tool for fellow web designers and developers as hassle-free as possible.
+* **Steve Jobs** for his relentless pursuit of value and elegance.
+* **Apple** for implacable attention to detail and consistency.
+* **Don Norman** for championing user-centered design.
+* **Atomic Design by Brad Frost** for advocating systematic design thinking.
+* **Atomic Habits by James Clear** for insights on incremental improvement.
+* **Daniel Kahneman** for illuminating human decision-making.
+* **Linear Method** for its value-first and high-velocity.
+* **Bain&Cie Elements of Value®** for its structured problem-solving approach.

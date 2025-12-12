@@ -9,5 +9,28 @@ order: 2
 published: true
 ---
 
-## Ce que je fais
-Ton contenu riche en Markdown ici (images, listes, etc.).
+Music is my most direct way of expressing what words can’t hold. I compose across rock, folk, cinematic, electronic, rap, and experimental textures, switching instruments depending on what a track needs.
+
+## What I do
+
+* **Compose** melodies, harmonies, and rhythms.
+* **Arrange** and produce full tracks in acoustic and plugged versions.
+* **Write** lyrics rooted in emotion, perspective, and reflection.
+* **Record** using guitar, bass, piano, keyboards, drums, and voice.
+* **Mix** in Logic Pro with attention to atmosphere and narrative.
+
+## Why I do it
+
+Because music is the closest thing to truth I know. It’s also the foundation of a larger artistic vision blending sound, light, philosophy, and personal development.
+
+## Influences
+
+* **Aurora Aksnes** for her sincerity, authenticity, and universality.
+* **Rage Against The Machine** for their raw energy and political engagement.
+* **Radiohead** for their genre-defying innovation and emotional depth.
+* **Linkin Park** for their fusion of rock, rap, and electronic elements.
+* **Hans Zimmer** for his cinematic soundscapes and emotional storytelling.
+* **Nina Simone** for her powerful voice and social activism through music.
+* **Mark Ronson** for his genre-blending production and catchy hooks.
+* **MC Solaar** for his poetic lyricism and smooth flow.
+* **London Grammar** for their atmospheric sound and emotive vocals.

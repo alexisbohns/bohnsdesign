@@ -9,5 +9,4 @@ order: 2
 published: true
 ---
 
-## Ce que je fais
-Ton contenu riche en Markdown ici (images, listes, etc.).
+TODO: Traduire ce texte en français.

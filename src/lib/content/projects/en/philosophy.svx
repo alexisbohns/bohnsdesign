@@ -9,5 +9,37 @@ order: 3
 published: false
 ---
 
-## Ce que je fais
-Ton contenu riche en Markdown ici (images, listes, etc.).
+My philosophical approach take its roots in sociology and psychology to explore how people make sense of their lives — including my own. My work focuses on existential questions, cognitive patterns, and practical frameworks for self-elevation.
+
+## What I do
+
+* **Study** sociology, cognitive science, and psychology.
+* **Write** about meaning, identity, perception, and decision-making.
+* **Envision** structured methods to support focus, resilience, and self-clarity.
+* **Design** tools and exercises inspired by CBT, ACT, and phenomenology.
+* **Build** Pebblestones, a set of simple, actionable psychological tools designed to help people take small, grounded steps toward a better life.
+
+## How I work
+
+* **Observe** I start from lived experience.
+* **Research** I connect it to research, philosophy, and cognitive science.
+* **Shape** I shape ideas into practical, minimal tools.
+* **Iterate** I test them, refine them, and keep only what is useful.
+
+## Why I do it
+
+Because people often need clarity more than motivation. And because growing up intellectually is one of the most beautiful human adventures.
+
+## Influences
+
+* **Atomic Habits by James Clear** for insights on incremental improvement.
+* **Daniel Kahneman** for illuminating human decision-making.
+* **Abraham Maslow** for his hierarchy of needs and humanistic psychology.
+* **Max Weber** for his analysis of modernity and rationalization.
+* **Georg Simmel** for his work on social forms and individual identity.
+* **Karl Marx** for his critique of capitalism and social structures.
+* **Friedrich Nietzsche** for his exploration of existentialism and individualism.
+* **Khalil Gibran** for his poetic reflections on life and spirituality.
+* **Nassim Nicholas Taleb** for his ideas on uncertainty and decision-making.
+* **Marcus Aurelius** for his Stoic philosophy and practical wisdom.
+* **Henry David Thoreau** for his advocacy of simple living and self-reliance.

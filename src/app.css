@@ -14,6 +14,7 @@
 
 	--background: var(--background-bohnsdesign);
 	--foreground: rgba(255, 255, 255, 0.9);
+	--secondary: rgba(255, 255, 255, 0.7);
 	--border-color: rgba(255, 255, 255, 0.1);
 	--ghost: rgba(255, 255, 255, 0.03);
 	--muted-color: rgba(255, 255, 255, 0.3);
@@ -122,16 +123,29 @@ article li {
 	margin: 0.4rem 0;
 	list-style-type: '✻';
 	padding-left: 1rem;
+	color: var(--secondary);
 }
 
 article li::marker {
 	color: var(--muted-color);
 }
 
+article li strong {
+	font-weight: 600;
+	color: var(--foreground);
+}
+
+article li strong::after {
+	content: '·';
+	color: var(--muted-color);
+	margin: 0 0.25rem 0 0.5rem;
+}
+
 article ul {
 	list-style: disc;
 	margin: 0 0 1.5rem;
 	padding-left: 1.2rem;
+	user-select: all;
 }
 
 section {

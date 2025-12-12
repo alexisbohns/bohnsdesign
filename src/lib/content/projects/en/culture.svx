@@ -11,5 +11,14 @@ order: 4
 published: false
 ---
 
-## Ce que je fais
-Ton contenu riche en Markdown ici (images, listes, etc.).
+I explore how culture shapes identities and communities, and I contribute by highlighting feminine and feminist voices through storytelling and curation.
+
+## What I do
+
+* **Podcasting** hosting Femfolk, a podcast amplifying feminine and feminist artists.
+* **Writing** creating articles and essays on cultural topics.
+* **Curation** selecting and promoting works that reflect diverse perspectives.
+
+## Why I do it
+
+Because culture is something living, enriched by diversity. And because sharing art is sharing possibility.
