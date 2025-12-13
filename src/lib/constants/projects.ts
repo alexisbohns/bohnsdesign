@@ -1,9 +1,9 @@
 import type { Locale } from '$lib/server/content/projects';
 
 const PROJECTS_HEADING_BY_LOCALE: Record<Locale, string> = {
-	en: 'Projects',
-	fr: 'Projets',
-	nb: 'Prosjekter'
+	en: 'What',
+	fr: "Quoi",
+	nb: 'Hva',
 };
 
 export function getProjectsHeading(locale: Locale): string {

@@ -8,9 +8,9 @@
 	const locale = $derived(getLocale() as Locale);
 
 	const HEADINGS: Record<Locale, string> = {
-		en: 'Who am I?',
-		fr: 'Qui suis-je ?',
-		nb: 'Hvem er jeg?'
+		en: 'Who',
+		fr: 'Qui',
+		nb: 'Hvem'
 	};
 
 	const BIOS: Record<Locale, string> = {
