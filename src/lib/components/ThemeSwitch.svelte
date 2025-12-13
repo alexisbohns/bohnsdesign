@@ -21,7 +21,9 @@
 	const persistBackground = (value: string) => {
 		try {
 			localStorage.setItem(STORAGE_KEY, value);
-		} catch {}
+		} catch (error) {
+			console.warn('Unable to persist background preference', error);
+		}
 	};
 
 	const applyBackground = (value: string, persist = true) => {
@@ -55,7 +57,9 @@
 			if (storedBackground && backgrounds.includes(storedBackground)) {
 				initialBackground = storedBackground;
 			}
-		} catch {}
+		} catch (error) {
+			console.warn('Unable to read background preference', error);
+		}
 
 		backgroundIndex = Math.max(backgrounds.indexOf(initialBackground), 0);
 		applyBackground(backgrounds[backgroundIndex], false);
