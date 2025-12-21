@@ -1,7 +1,7 @@
 import { fail } from '@sveltejs/kit';
 import { z } from 'zod';
 import { CONTACT_TOPICS } from '$lib/contact';
-import { NOTION_DATA_SOURCE_ID, notion } from '$lib/notion';
+import { NOTION_DATA_SOURCE_ID, NOTION_TOKEN, notion } from '$lib/notion';
 import type { Actions } from './$types';
 
 const optionalString = z
@@ -65,6 +65,9 @@ export const actions = {
 
 		try {
 			await notion.pages.create({
+				auth: NOTION_TOKEN,
+				cover: null,
+				icon: null,
 				parent: { data_source_id: NOTION_DATA_SOURCE_ID },
 				properties: {
 					name: { title: [{ text: { content: name } }] },
